@@ -1,0 +1,33 @@
+name: HelloStaff
+main: HelloStaff\Main
+version: 1.0
+api: 2.0.0
+load: POSTWORLD
+author: TheDeibo
+description: To keep track on the Staff on command
+commands:
+ checkop:
+  description: §bTo Check if the player is op.
+  usage: "§b/checkop <playerName>."
+  aliases: [cop]
+  permission: hellostaff.checkop
+ checkgm:
+  description: §bTo Check what gamemode the player is in.
+  usage: "§b/checkgm <playerName>."
+  aliases: [checkgamemode, isgm, isgamemode]
+  permission: hellostaff.love
+ hellostaff:
+  description: §bMain Command
+  usage: "§b/hellostaff"
+  aliases: [nm]
+  permission: hellostaff.hellostaff
+permissions:
+ hellostaff.checkop:
+  description: "§bDisplays Plugin Infomation"
+  default: true
+ hellostaff.checkgm:
+  description: "§bAllows the user to love another player"
+  default: true
+ hellostaff.hellostaff:
+  description: "§bAllows the user to breakup with another player"
+  default: true
