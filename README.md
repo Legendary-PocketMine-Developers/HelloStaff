@@ -4,12 +4,12 @@ A simple plugin to allow any player to keep an eye on the staff
 
 #TODO:
 
-[ ] Add isBanned()
+[   ] Add isBanned()
 
-[ ] fix probmel with checkgm
+[   ] fix probmel with checkgm
 
-[ ] Add isWhitelisted()
+[   ] Add isWhitelisted()
 
-[ ] Add Get XYZ
+[   ] Add Get XYZ
 
-[x] Progress being bade ( 25% )
+[ x ] Progress being bade ( 25% )
