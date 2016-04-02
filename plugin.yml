@@ -3,7 +3,7 @@ main: HelloStaff\Main
 version: 1.0
 api: 2.0.0
 load: POSTWORLD
-author: TheDeibo
+author: TheDeibo_And_MichaelM04
 description: To keep track on the Staff on command
 commands:
  checkop:
