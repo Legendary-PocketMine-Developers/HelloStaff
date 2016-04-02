@@ -61,34 +61,35 @@ class Main extends PluginBase implements Listener{
             case "checkgm":
                 
                 $name = $args[0];
-	 			$targetPlayer = $this->getServer()->getPlayer($name);
-	 			$game = Player->getGamemode();
+	 			$player = $this->getServer()->getPlayer($sender->getName());
                 
                 if (!($targetPlayer instanceof $name)){ 
                 $sender->sendMessage($name . " isn't online right now.");
                     return true;
 	 			}
-	 			if($game == 1){
+	 			if ($player->getGamemode() == 1){
 	 				$sender->sendMessage(TextFormat::GREEN . $args[0] . " is in ". "creative!");
 	 				return true;
 	 			}
-	 			if($game == 0){
+	 			if ($player->getGamemode() == 0){
 	 				$sender->sendMessage(TextFormat::GREEN . $args[0] . " is in ". "survival!");
 	 				return true;
 	 			}
-	 			if($game == 2){
+	 			if ($player->getGamemode() == 2){
 	 				$sender->sendMessage(TextFormat::GREEN . $args[0] . " is in ". "Adventure Mode!");
 	 				return true;
 	 			}
-	 			elseif($game == 3){
+	 			if ($player->getGamemode() == 3){
 	 				$sender->sendMessage(TextFormat::GREEN . $args[0] . " is in ". "Spectator Mode!");
+				}
 	 				return true;
+					break;
 /**
 *
 *              Main Command                     
 *
 **/
-            break;
+
             case "hellostaff":
                     $sender->sendMessage(TextFormat::GREEN . "HelloStaff:");
                     $sender->sendMessage(TextFormat::GREEN . "Used to allow anyone to keep track on the staff");
