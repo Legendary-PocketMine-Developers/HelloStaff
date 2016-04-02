@@ -6,10 +6,10 @@ A simple plugin to allow any player to keep an eye on the staff
 
 [   ] Add isBanned()
 
-[   ] fix probmel with checkgm
+[   ] fix problem with checkgm
 
 [   ] Add isWhitelisted()
 
-[   ] Add Get XYZ
+[   ] Add Get X,Y,Z
 
-[ x ] Progress being bade ( 25% )
+[ x ] Progress that's been done ( 25% )
