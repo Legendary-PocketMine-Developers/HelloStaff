@@ -1,9 +1,13 @@
 name: HelloStaff
 main: HelloStaff\Main
 version: 1.0
-api: 2.0.0
+api: 
+- 1.0.0
+- 2.0.0
 load: POSTWORLD
-author: TheDeibo_And_MichaelM04
+authors: 
+- TheDeibo
+- MichaelM04
 description: To keep track on the Staff on command
 commands:
  checkop:
